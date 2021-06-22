@@ -33,7 +33,8 @@
           "layout": "left",
           "title": "Bible study guides designed for disciples and disciple-makers.",
           "text": "<p>The Grace Discipleship Series is designed as one part of a <br\/>comprehensive, one-on-one disciple-making ministry. Although everyone can benefit from personal Bible study, these study materials are most effective when shared.<\/p><p>A spiritual mentor can walk through these studies with you, sharing the lessons they’ve learned while building a spiritual friendship to last a lifetime. Over time, you will become equipped to do the same, leading a young believer by word and by example, just as Jesus did with his disciples.<\/p>",
-          "button_label": ""
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections\/frontpage"
         }
       },
       "feature-columns": {
@@ -225,7 +226,19 @@
         ],
         "settings": {
           "title": "Collections",
-          "grid": 4
+          "grid": 3
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
         }
       }
     },
