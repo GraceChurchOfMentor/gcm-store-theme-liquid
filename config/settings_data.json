@@ -216,13 +216,20 @@
             "settings": {
               "collection": "spanish-translation"
             }
+          },
+          "41ba28f8-480a-44ab-80f9-6e12582c2298": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "other-discipleship-resources"
+            }
           }
         },
         "block_order": [
           "1623960184d627d96d-0",
           "1623960184d627d96d-1",
           "1623960184d627d96d-2",
-          "a13db7e8-2185-49e2-babe-6b6463cf6c6e"
+          "a13db7e8-2185-49e2-babe-6b6463cf6c6e",
+          "41ba28f8-480a-44ab-80f9-6e12582c2298"
         ],
         "settings": {
           "title": "Collections",
