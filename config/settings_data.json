@@ -2,8 +2,8 @@
   "current": {
     "color_button": "#7a9d4a",
     "color_small_button_text_border": "#3a3a3a",
-    "color_image_overlay": "#00568a",
-    "image_overlay_opacity": 60,
+    "color_image_overlay": "#042b48",
+    "image_overlay_opacity": 30,
     "type_header_font": "roboto_condensed_n4",
     "type_header_base_size": 26,
     "type_base_font": "roboto_n4",
@@ -15,13 +15,14 @@
       "header": {
         "type": "header",
         "settings": {
-          "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/gcm-logo-color-horizontal_trans-bg_594x284_df5bcd62-ec76-4009-aef0-9244d865396c.png",
-          "logo_max_width": 180,
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/disciple-life-store-combined-logo-horizontal.png",
+          "logo_max_width": 250,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
           "message_text": "Announce something here",
+          "message_link": "",
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff"
         }
@@ -29,7 +30,7 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/grace-discipleship-series.jpg",
+          "image": "shopify:\/\/shop_images\/grace-discipleship-series-tile.jpg",
           "layout": "left",
           "title": "Bible study guides designed for disciples and disciple-makers.",
           "text": "<p>The Grace Discipleship Series is designed as one part of a <br\/>comprehensive, one-on-one disciple-making ministry. Although everyone can benefit from personal Bible study, these study materials are most effective when shared.<\/p><p>A spiritual mentor can walk through these studies with you, sharing the lessons they’ve learned while building a spiritual friendship to last a lifetime. Over time, you will become equipped to do the same, leading a young believer by word and by example, just as Jesus did with his disciples.<\/p>",
@@ -217,10 +218,23 @@
               "collection": "spanish-translation"
             }
           },
+          "8c7d8836-3785-461d-b8da-8d3df4136707": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "disciple-life-app"
+            }
+          },
           "41ba28f8-480a-44ab-80f9-6e12582c2298": {
             "type": "featured_collection",
             "settings": {
               "collection": "other-discipleship-resources"
+            }
+          },
+          "4ff3b3a0-fb06-4dae-bb05-7014e115b679": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "grace-logo-wear"
             }
           }
         },
@@ -229,7 +243,9 @@
           "1623960184d627d96d-1",
           "1623960184d627d96d-2",
           "a13db7e8-2185-49e2-babe-6b6463cf6c6e",
-          "41ba28f8-480a-44ab-80f9-6e12582c2298"
+          "8c7d8836-3785-461d-b8da-8d3df4136707",
+          "41ba28f8-480a-44ab-80f9-6e12582c2298",
+          "4ff3b3a0-fb06-4dae-bb05-7014e115b679"
         ],
         "settings": {
           "title": "Collections",
@@ -242,15 +258,65 @@
           "layout": "grid",
           "grid": 4,
           "rows": 2,
-          "show_collection_image": true,
+          "show_collection_image": false,
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true
         }
+      },
+      "16252394401cee2243": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/custom-shop-tile.jpg",
+          "layout": "right",
+          "title": "Custom Shop",
+          "text": "<p>Did you know the entire Grace Discipleship Series can be customized with your ministry name, logo and contact information?<\/p><p>Get the same great study materials you know and trust, customized for <em>your<\/em> ministry's outreach to <em>your<\/em> community.<\/p>",
+          "button_label": "Get a Quote",
+          "button_link": "shopify:\/\/collections\/customized-discipleship-resources"
+        }
+      },
+      "16252399829b71184e": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/app-showing.jpg",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "The Bible Study App for Disciple Makers",
+          "text": "<p>The Disciple Life app connects people with people, building relationships centered around God's Word.<\/p>",
+          "button_label": "Learn More",
+          "button_link": "shopify:\/\/collections\/disciple-life-app"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "16262025398863229e": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/aerial-photo-of-paved-road-surrounded-by-trees.jpg",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "small",
+          "text_size": "large",
+          "title": "Making Disciples for Life",
+          "text": "<p>The Grace Church of Mentor Bookstore is now <em>Disciple Life<\/em>–a new identity to reflect a timeless reality.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
+      "16262025398863229e",
       "feature-row",
+      "16252394401cee2243",
+      "16252399829b71184e",
       "1623960184d627d96d"
     ]
   },

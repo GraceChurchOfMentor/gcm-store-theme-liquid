@@ -6996,3 +6996,25 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
+
+
+
+/*================ Request for Quote ================*/
+
+.rfq_form_page .form-group.fullwidth {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+
+.rfq_form_page .form-group.has-top-separator {
+  padding-top: 42px;
+}
+
+.rfq_form_page .form-group.has-bottom-separator {
+  padding-bottom: 42px;
+}
+
+.rfq_form_page .g-recaptcha {
+  justify-content: flex-start !important;
+}
