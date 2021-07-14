@@ -1,36 +1,19 @@
-{% if template contains 'custom-options' %}
-  <hr />
-  <h3>Customization Options</h3>
+{% if product.tags contains 'has-custom-fields' %}
+  <div class="product-form__controls-group product-single__custom-options-group">
 
-  {% comment %}
-  {% if template contains 'customized-editions' %}
-    <div class="product-single__custom-optons-group">
-      <p class="line-item-property__field">
-        <label for="ministry-name">Ministry Name</label>
-        <input required id="ministry-name" type="text" name="properties[Ministry Name]" />
-      </p>
+    {% if product.tags contains 'field--ministry-name' %}
+        <p class="product-form__item line-item-property__field">
+          <label for="ministry-name">Ministry Name</label>
+          <input class="product-form__input" required id="ministry-name" type="text" name="properties[Ministry Name]" placeholder='e.g., "Grace Church of Mentor"' />
+        </p>
+    {% endif %}
 
-      <p class="line-item-property__field">
-        <label for="ministry-contact-info">Ministry Contact Info</label>
-        <textarea required id="ministry-contact-info" type="text" name="properties[Ministry Contact Info]" rows="3"></textarea>
-      </p>
+    {% if product.tags contains 'field--ministry-location' %}
+        <p class="product-form__item line-item-property__field">
+          <label for="ministry-name">Ministry Location</label>
+          <input class="product-form__input" required id="ministry-name" type="text" name="properties[Ministry Name]" placeholder='e.g., "Mentor, Ohio"' />
+        </p>
+    {% endif %}
 
-      <p class="line-item-property__field">
-        <label for="ministry-logo-artwork">Custom Logo Artwork</label>
-        <input required id="ministry-logo-artwork" type="file" name="properties[Ministry Logo Artwork]" />
-      </p>
-    </div>
-  {% endif %}
-  {% endcomment %}
-
-  {% if template contains 'app-redemption-code' %}
-    <div class="product-single__custom-optons-group">
-      <p class="line-item-property__field">
-        <label for="ministry-name">Ministry Name</label>
-        <input required id="ministry-name" type="text" name="properties[Ministry Name]" />
-      </p>
-    </div>
-  {% endif %}
-
-  <hr />
+  </div>
 {% endif %}

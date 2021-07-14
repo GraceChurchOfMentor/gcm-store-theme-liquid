@@ -1196,7 +1196,7 @@ h4,
 .h4 {
   font-size: calc(((var(--font-h4-desktop)) / (var(--font-size-base))) * 1em); }
   @media only screen and (max-width: 749px) {
-    
+
     h4,
     .h4 {
       font-size: calc(((var(--font-h4-mobile)) / (var(--font-size-base))) * 1em); } }
@@ -1206,7 +1206,7 @@ h5,
 .h5 {
   font-size: calc(((var(--font-h5-desktop)) / (var(--font-size-base))) * 1em); }
   @media only screen and (max-width: 749px) {
-    
+
     h5,
     .h5 {
       font-size: calc(((var(--font-h5-mobile)) / (var(--font-size-base))) * 1em); } }
@@ -1216,7 +1216,7 @@ h6,
 .h6 {
   font-size: calc(((var(--font-h6-desktop)) / (var(--font-size-base))) * 1em); }
   @media only screen and (max-width: 749px) {
-    
+
     h6,
     .h6 {
       font-size: calc(((var(--font-h6-mobile)) / (var(--font-size-base))) * 1em); } }
@@ -1796,7 +1796,7 @@ select,
   padding-left: 15px;
   padding-bottom: 8px; }
   @media only screen and (min-width: 750px) {
-    
+
     select,
     .disclosure__toggle {
       padding-top: 10px;
@@ -2000,7 +2000,7 @@ textarea {
 
 .input-group__btn {
   flex-grow: 1; }
-  
+
   .input-group__btn .btn,
   .input-group__btn .shopify-payment-button .shopify-payment-button__button--unbranded,
   .shopify-payment-button .input-group__btn .shopify-payment-button__button--unbranded {
@@ -6997,6 +6997,21 @@ hr {
 .store-availability-list__phone {
   margin-bottom: 0; }
 
+/*================ Custom Fields ================*/
+
+.product-single__custom-options-group {
+  margin-top: 30px;
+}
+
+/*
+.product-single__custom-options-group .line-item-property__field {
+  flex-basis: 50%;
+  padding: 0 5px;
+  flex-grow: 0;
+  margin-bottom: 10px;
+}
+*/
+
 
 
 /*================ Request for Quote ================*/
@@ -7017,4 +7032,22 @@ hr {
 
 .rfq_form_page .g-recaptcha {
   justify-content: flex-start !important;
+}
+
+body .product-form__item--submit button.rfq-btn {
+  margin-bottom: 10px;
+}
+
+body .rfq-btn {
+  background-color: var(--color-body);
+  color: var(--color-btn-primary);
+  border-color: var(--color-btn-primary);
+  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
+}
+
+body .rfq-btn:focus,
+body .rfq-btn:not([disabled]):hover {
+  background-color: var(--color-body);
+  color: var(--color-btn-primary-focus);
+  border-color: var(--color-btn-primary-focus);
 }
